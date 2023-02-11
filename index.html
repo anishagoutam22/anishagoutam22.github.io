@@ -19,9 +19,63 @@
             color: blueviolet;
             font-weight: bold;
         }
+        #section-home {
+            display: flex ;
+            justify-content: space-between;
+            background: blanchedalmond;
+             border-radius: 15px;
+             margin: 20px;
+
+        }
+        #section-home div:first-child{
+            padding: 20px;
+            
+        }
+        
+        .two-projects{
+            display: flex;
+        }
+        .two-projects img{
+            height: 300px;
+        }
+        .two-projects>div{
+            width: 50%;
+            
+            padding: 20px;
+            border-radius: 15px;
+        }
+        #section-projects {
+            margin: 20px;
+        }
+        .two-projects div:first-child{
+            background-color: rgb(212, 231, 231);
+            margin-right: 10px;
+        }
+        .two-projects div:last-child{
+            background-color: rgb(182, 201, 236);
+            margin-left: 10px;
+
+        }
+        .third-projects{
+           
+            padding: 20px;
+            margin: 20px 0;
+            background-color: black;
+            border-radius: 15px;
+            color: aliceblue;
+            background-image: linear-gradient(to bottom right , rgb(48, 4, 48) , pink );
+        }
+        .third-projects img {
+            height: 400px;
+
+
+        }
+
+        
+        
     </style>
 </head>
-<body>
+<body >
     <nav>
     <div>
         <!-- container for logo -->
@@ -36,13 +90,43 @@
     <section id="section-home">
         <div>
             <!-- description about me -->
-            <h1>Hey!i'm Anshu,a web developer.</h1>
+            <h1>Hey!i'm Anisha ,a web developer.</h1>
             <p>I design and update websites and online applications using various programming languages and design tools. </p>
         </div>
         <div>
             <!-- my image -->
-            <img src="\images\WhatsApp Image 2023-02-11 at 12.14.57 PM.jpeg" alt="">
+           <img src = "https://th.bing.com/th?id=OIP.A1CwO5Q3kquQPVeE9y4WWgHaJ9&w=215&h=289&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="">
         </div>
+    </section>
+    <section id="section-projects">
+        <div class="two-projects">
+            <!--First Project-->
+            <div>
+                <h1>
+                    Paymento
+                </h1>
+                <p> Personal finance Mobile App </p>
+                <img src="/images/Paymento.jpeg" alt="">
+            </div>
+            <div>
+                <h1>
+                    Taskit
+                </h1>
+                <p> Task management app </p>
+                <img src="/images/taskit.jpeg" alt="">
+            </div>
+
+        
+        </div>
+        <div class="third-projects">
+            <h1>
+                Piyuu
+            </h1>
+            <p> Freelancing platform for Individuals </p>
+            <img src="/images/Freelance.jpeg" alt="">
+        </div>
+        
+
     </section>
 </body>
 </html>
